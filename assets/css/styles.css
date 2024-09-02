@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,17 +6,41 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header styling */
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    position: relative;
     text-align: center;
 }
 
+/* Logo styling */
 .logo {
     max-width: 150px;
+    display: block;
+    margin: 0 auto;
 }
 
+/* Language selector styling */
+.language-selector {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 14px;
+}
+
+.language-selector a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.language-selector a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -35,11 +60,13 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Section styling */
 section {
     padding: 20px;
     text-align: center;
 }
 
+/* Footer styling */
 footer {
     background-color: #333;
     color: #fff;
